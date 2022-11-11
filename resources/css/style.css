@@ -200,6 +200,7 @@ a{
     width: 406px;
     height: 48px;
     background-color: #F5F6FB;
+    color: #575455;
     font: 'Poppins';
     font-size: 16px;
     
@@ -213,7 +214,7 @@ a{
 
 #officeText input{
     margin-bottom: 30px;
-    border-radius: 55px;
+    border-radius: 50px;
     border: none;
 }
 
