@@ -1,0 +1,239 @@
+/* GENERAL RULES */
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #F75C4E;
+
+}
+
+h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.flexCta{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* HEADER SECTION */
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070F18;
+    
+}
+
+a{
+    color:black;
+}
+
+/* BANNER SECTION */
+.buttonCta{
+    background-color:#1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+#headerCta h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+    
+}
+
+
+#headerImg{
+    display:flex;
+    justify-content: center;
+}
+
+#headerImg img{
+    width: 450px;
+    height: 350px;
+    border-radius: 60px;
+    
+}
+
+
+
+.flexCta img{
+    width: auto;
+    height: 30px;
+    align-self: center;
+
+}
+
+/* CLIENTS SECTION */
+#clientText{
+    justify-self: flex-start;
+    text-align: left;
+}
+
+#clients{
+    margin-top: 80px;
+}
+
+/* BANNER 2 SECTION */
+#serv{
+    
+    text-align: center;
+    margin-top: 60px;
+}
+
+#serv h5{
+    margin-bottom: 0;
+
+}
+#serv h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* JOBS SECTION */
+#jobs{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#jobs img{
+    width: 60px;
+    height: 60px;
+}
+
+#jobs h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+
+/* OFFICE SECTION */
+
+#office{
+
+    margin-top: 100px;
+}
+
+
+
+#office img{
+    height: 431px;
+    width:578px;
+    border-radius: 40px;
+}
+
+#officeText h3{
+    text-align: left;
+}
+
+#email{
+    margin-top: 30px;
+    padding-left: 33px;
+    margin-bottom: 40px;
+    width: 406px;
+    height: 48px;
+    background-color: #F5F6FB;
+    font: 'Poppins';
+    font-size: 16px;
+    
+}
+
+#enviar{
+    padding-left: 66px;
+    padding-right: 66px;
+    
+}
+
+#officeText input{
+    margin-bottom: 30px;
+    border-radius: 55px;
+    border: none;
+}
+
+/* PORTFOLIO SECTION */
+
+#port{
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+#port h3{
+    text-align: left;
+    margin-top: 0;
+}
+
+#port h5{
+    margin-bottom: 15px;
+}
+
+.pics img{
+    width: 339px;
+    height: 225px;
+}
