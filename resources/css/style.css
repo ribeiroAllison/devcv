@@ -113,9 +113,10 @@ a{
 }
 
 #headerImg img{
-    width: 450px;
-    height: 350px;
+    width: 80%;
+    height: auto;
     border-radius: 60px;
+   
     
 }
 
@@ -184,8 +185,8 @@ a{
 
 
 #office img{
-    height: 431px;
-    width:578px;
+    height: auto;
+    width:85%;
     border-radius: 40px;
 }
 
@@ -235,8 +236,8 @@ a{
 }
 
 .pics img{
-    width: 339px;
-    height: 225px;
+    width: 70%;
+    height: auto;
 }
 
 #portPics{
