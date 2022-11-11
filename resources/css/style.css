@@ -237,3 +237,8 @@ a{
     width: 339px;
     height: 225px;
 }
+
+#portPics{
+    text-align: center;
+    margin-bottom: 60px;
+}
